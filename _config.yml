@@ -1,0 +1,16 @@
+# Site settings
+title: "CWS"
+description: > 
+  Ca3w Web Service
+
+baidu_tongji_id: 09229349aeef9581dfb4a5b54e7b904b
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /posts/:year/:month/:title.html
+
+sass:
+    style: compressed
+
+exclude: [vendor]

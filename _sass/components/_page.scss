@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Page
+   ========================================================================== */
+
+.c-page {
+
+}
+
+.c-page__header {
+    margin-bottom: 3em; // 30px
+
+    h1 {
+        margin-bottom: 0;
+        color: $c-base__02;
+        code {
+            font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            font-size: 3em;
+        }
+        &:first {
+            margin-bottom: 0;
+        }
+    }
+
+    h2 {
+        margin-bottom: 2.5rem; // 25px
+        @include fs--heading-2;
+    }
+
+    p {
+        @include fs--meta;
+    }
+}
+
